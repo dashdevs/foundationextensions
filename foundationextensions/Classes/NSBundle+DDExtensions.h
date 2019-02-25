@@ -11,7 +11,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSBundle (DDApplicationWideInfo)
 
+/**
+ Returns current bundle release-version-number string. Useful for getting application version info
+
+ @return bundle short version string
+ */
 - (NSString *)dd_appVersion;
+
+/**
+ Returns current bundle version information from the Info.plist format. 
+
+ @return Version information for the Info.plist format
+ */
 - (NSString *)dd_appBuildNumber;
     
 @end

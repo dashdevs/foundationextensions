@@ -11,6 +11,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSURLRequest (DDDebug)
 
+/**
+ Returns url request description in form of cURL. Useful for debug purposes
+
+ @return string containing request cURL description
+ */
 - (NSString * _Nonnull)dd_curl;
 
 @end

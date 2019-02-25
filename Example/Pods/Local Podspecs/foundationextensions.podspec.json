@@ -20,6 +20,14 @@
   "source_files": "foundationextensions/Classes/**/*",
   "swift_version": "4.2",
   "default_subspecs": "Core",
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Tests/*.{h,m}",
+      "frameworks": "XCTest"
+    }
+  ],
   "subspecs": [
     {
       "name": "Core",

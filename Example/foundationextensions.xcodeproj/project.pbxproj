@@ -13,18 +13,17 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		E82D8E8522241142005A66D2 /* NSBundleExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E82D8E7A22241142005A66D2 /* NSBundleExtensionTests.m */; };
+		E82D8E8622241142005A66D2 /* NSURLRequestExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E82D8E7C22241142005A66D2 /* NSURLRequestExtensionTests.m */; };
+		E82D8E8722241142005A66D2 /* NSDictionaryExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E82D8E7D22241142005A66D2 /* NSDictionaryExtensionTests.m */; };
+		E82D8E8822241142005A66D2 /* BundleTest.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E82D8E7F22241142005A66D2 /* BundleTest.bundle */; };
+		E82D8E8922241142005A66D2 /* NSDictionary+DDNetworkingJSONTest.json in Resources */ = {isa = PBXBuildFile; fileRef = E82D8E8022241142005A66D2 /* NSDictionary+DDNetworkingJSONTest.json */; };
+		E82D8E8A22241142005A66D2 /* NSDataExtensionTestText.txt in Resources */ = {isa = PBXBuildFile; fileRef = E82D8E8122241142005A66D2 /* NSDataExtensionTestText.txt */; };
+		E82D8E8B22241142005A66D2 /* EmailTests.plist in Resources */ = {isa = PBXBuildFile; fileRef = E82D8E8222241142005A66D2 /* EmailTests.plist */; };
+		E82D8E8C22241142005A66D2 /* NSDataExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E82D8E8322241142005A66D2 /* NSDataExtensionTests.m */; };
+		E82D8E8D22241142005A66D2 /* NSStringExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E82D8E8422241142005A66D2 /* NSStringExtensionTests.m */; };
 		F398504B701ED0FF847D2C61 /* Pods_foundationextensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8753B26B9E2B6D5730184F1E /* Pods_foundationextensions_Tests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = foundationextensions;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		42CEAC09A40FF2859299A02E /* Pods-foundationextensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foundationextensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foundationextensions_Example/Pods-foundationextensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,6 +42,17 @@
 		87EF8F490D0212D78D524E6C /* Pods-foundationextensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foundationextensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foundationextensions_Tests/Pods-foundationextensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A15669A6542549DC7A509FB7 /* foundationextensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = foundationextensions.podspec; path = ../foundationextensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B7D87354F5B5794452A5FF7A /* Pods-foundationextensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foundationextensions_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-foundationextensions_Example/Pods-foundationextensions_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E82D8E7822241001005A66D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82D8E7A22241142005A66D2 /* NSBundleExtensionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBundleExtensionTests.m; sourceTree = "<group>"; };
+		E82D8E7B22241142005A66D2 /* foundationextensions_Example-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "foundationextensions_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		E82D8E7C22241142005A66D2 /* NSURLRequestExtensionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLRequestExtensionTests.m; sourceTree = "<group>"; };
+		E82D8E7D22241142005A66D2 /* NSDictionaryExtensionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryExtensionTests.m; sourceTree = "<group>"; };
+		E82D8E7F22241142005A66D2 /* BundleTest.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BundleTest.bundle; sourceTree = "<group>"; };
+		E82D8E8022241142005A66D2 /* NSDictionary+DDNetworkingJSONTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "NSDictionary+DDNetworkingJSONTest.json"; sourceTree = "<group>"; };
+		E82D8E8122241142005A66D2 /* NSDataExtensionTestText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSDataExtensionTestText.txt; sourceTree = "<group>"; };
+		E82D8E8222241142005A66D2 /* EmailTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmailTests.plist; sourceTree = "<group>"; };
+		E82D8E8322241142005A66D2 /* NSDataExtensionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataExtensionTests.m; sourceTree = "<group>"; };
+		E82D8E8422241142005A66D2 /* NSStringExtensionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensionTests.m; sourceTree = "<group>"; };
 		EB082643026DA26569F227BA /* Pods_foundationextensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foundationextensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				E82D8E7722241001005A66D2 /* Tests */,
 				607FACD21AFB9204008FA782 /* Example */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				BCFA56A96159EC60A3E22FAB /* Pods */,
 				9903E365153403709988530D /* Frameworks */,
@@ -109,13 +119,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +147,32 @@
 				601A31EC07C303F9DA831B9D /* Pods-foundationextensions_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E82D8E7722241001005A66D2 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E82D8E7E22241142005A66D2 /* Resources */,
+				E82D8E7B22241142005A66D2 /* foundationextensions_Example-Bridging-Header.h */,
+				E82D8E7A22241142005A66D2 /* NSBundleExtensionTests.m */,
+				E82D8E8322241142005A66D2 /* NSDataExtensionTests.m */,
+				E82D8E7D22241142005A66D2 /* NSDictionaryExtensionTests.m */,
+				E82D8E8422241142005A66D2 /* NSStringExtensionTests.m */,
+				E82D8E7C22241142005A66D2 /* NSURLRequestExtensionTests.m */,
+				E82D8E7822241001005A66D2 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E82D8E7E22241142005A66D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E82D8E7F22241142005A66D2 /* BundleTest.bundle */,
+				E82D8E8022241142005A66D2 /* NSDictionary+DDNetworkingJSONTest.json */,
+				E82D8E8122241142005A66D2 /* NSDataExtensionTestText.txt */,
+				E82D8E8222241142005A66D2 /* EmailTests.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +209,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
 			name = foundationextensions_Tests;
 			productName = Tests;
@@ -242,6 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82D8E8922241142005A66D2 /* NSDictionary+DDNetworkingJSONTest.json in Resources */,
+				E82D8E8B22241142005A66D2 /* EmailTests.plist in Resources */,
+				E82D8E8A22241142005A66D2 /* NSDataExtensionTestText.txt in Resources */,
+				E82D8E8822241142005A66D2 /* BundleTest.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,18 +350,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82D8E8C22241142005A66D2 /* NSDataExtensionTests.m in Sources */,
+				E82D8E8D22241142005A66D2 /* NSStringExtensionTests.m in Sources */,
+				E82D8E8722241142005A66D2 /* NSDictionaryExtensionTests.m in Sources */,
+				E82D8E8622241142005A66D2 /* NSURLRequestExtensionTests.m in Sources */,
+				E82D8E8522241142005A66D2 /* NSBundleExtensionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* foundationextensions_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -465,8 +494,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/foundationextensions_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -483,7 +512,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/foundationextensions_Example-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

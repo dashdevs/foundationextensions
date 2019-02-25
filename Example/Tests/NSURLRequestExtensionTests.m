@@ -23,13 +23,11 @@
 }
 
 - (void)testdd_curlWithGETRequest {
-    
     NSURLRequest *request = [self defaultRequest];
     XCTAssertEqualObjects(@"curl -X GET \"http://www.google.ua\"", [request dd_curl]);
 }
 
 - (void)testdd_curlWithRequestWithCustomHeaders {
-    
     NSMutableURLRequest *request = [self defaultRequest];
     [request setValue:@"header Value" forHTTPHeaderField:@"customHeader"];
     
@@ -37,7 +35,6 @@
 }
 
 - (void)testdd_curlWithPOSTRequestWithData {
-    
     NSMutableURLRequest *request = [self defaultRequest];
     request.HTTPMethod = @"POST";
     

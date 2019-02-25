@@ -1,0 +1,18 @@
+PODS:
+  - foundationextensions (0.1.0):
+    - foundationextensions/Core (= 0.1.0)
+  - foundationextensions/Core (0.1.0)
+
+DEPENDENCIES:
+  - foundationextensions (from `../`)
+
+EXTERNAL SOURCES:
+  foundationextensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  foundationextensions: 406cc3400a04c64de4ea3d3513a5ae87d363eeb5
+
+PODFILE CHECKSUM: 8dfde7b8eb26ebbff3581400dec7301c068ff2b6
+
+COCOAPODS: 1.5.3

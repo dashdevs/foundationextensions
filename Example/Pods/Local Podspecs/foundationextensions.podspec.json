@@ -1,0 +1,49 @@
+{
+  "name": "foundationextensions",
+  "version": "0.1.0",
+  "summary": "Helpful set of homemade Foundation extensions",
+  "homepage": "https://dashdevs.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dashdevs llc": "hello@dashdevs.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/itomych/foundationextensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "foundationextensions/Classes/**/*",
+  "swift_version": "4.2",
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "foundationextensions/Classes/*.{h,m,swift}"
+    },
+    {
+      "name": "NSBundle",
+      "source_files": "foundationextensions/Classes/NSBundle+DDExtensions.{h,m}"
+    },
+    {
+      "name": "NSString",
+      "source_files": "foundationextensions/Classes/NSString+DDExtensions.{h,m}"
+    },
+    {
+      "name": "NSDictionary",
+      "source_files": "foundationextensions/Classes/NSDictionary+DDExtensions.{h,m}"
+    },
+    {
+      "name": "NSURLRequest",
+      "source_files": "foundationextensions/Classes/NSURLRequest+DDExtensions.{h,m}"
+    },
+    {
+      "name": "NSData",
+      "source_files": "foundationextensions/Classes/NSData+DDExtensions.{h,m}"
+    }
+  ]
+}

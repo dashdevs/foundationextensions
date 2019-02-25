@@ -1,0 +1,14 @@
+{
+    "emptyString" : "",
+    "string" : "test string",
+    "number" : 14.12,
+    "numberInString" : "14.12",
+    "emptyDictionary" : {},
+    "dictionary" : {
+        "key1" : 1,
+        "key2" : "value2"
+    },
+    "emptyArray" : [],
+    "array" : [1, 2, 3],
+    "nullObject" : null
+}

@@ -1,0 +1,11 @@
+Text for testing method in extension for NSData which convert NSData to hexString.
+After converting in hexString we can check result here http://string-functions.com/hex-string.aspx
++ Random JSON for testing:
+{
+"invoiceID": "180131-ROH-69817",
+"date": "January 31, 2018 8:42 AM",
+"itemsPurchased": 2,
+"items": "beer,sprite",
+"card": "4916-8418-2717-3156",
+"total": "$20.22"
+}

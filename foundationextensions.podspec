@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://bitbucket.org/itomych/foundationextensions.git', :tag => s.version }
 
   s.ios.deployment_target = '9.0'
-
+  
   s.source_files = 'foundationextensions/Classes/**/*'
   
   s.swift_version = '4.2'

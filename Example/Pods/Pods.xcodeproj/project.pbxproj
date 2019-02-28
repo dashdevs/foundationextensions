@@ -26,6 +26,10 @@
 		D318AACD506F46B543A97C1A980B419C /* Pods-foundationextensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E966E420CAB2A116E0E73EC5B5F0507 /* Pods-foundationextensions_Example-dummy.m */; };
 		D5A0C504864DF8E0FF791B5070809209 /* Pods-foundationextensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9973592762CE9D073D8727809EDA6832 /* Pods-foundationextensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4AB0417E7BEF3DDE925093FA0A3117F /* Pods-foundationextensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8784D131F6A20C6C27A9C0BD4C3A9B3E /* Pods-foundationextensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8FB645822281A39007930AF /* NSFileManager+DDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FB645622281A39007930AF /* NSFileManager+DDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8FB645922281A39007930AF /* NSFileManager+DDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FB645722281A39007930AF /* NSFileManager+DDExtensions.m */; };
+		E8FB645E2228284C007930AF /* NSURLComponents+DDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FB645C2228284C007930AF /* NSURLComponents+DDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8FB645F2228284C007930AF /* NSURLComponents+DDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FB645D2228284C007930AF /* NSURLComponents+DDExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,18 +68,18 @@
 		3E966E420CAB2A116E0E73EC5B5F0507 /* Pods-foundationextensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-foundationextensions_Example-dummy.m"; sourceTree = "<group>"; };
 		4D639A911EA731C738780221FC3A46A4 /* Pods-foundationextensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-foundationextensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4DE68A2AF9F0C0FC119838973C091866 /* NSData+DDExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+DDExtensions.h"; path = "foundationextensions/Classes/NSData+DDExtensions.h"; sourceTree = "<group>"; };
-		552E1CB128C1A6AF25034D4BE1416E08 /* Pods_foundationextensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_foundationextensions_Tests.framework; path = "Pods-foundationextensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		552E1CB128C1A6AF25034D4BE1416E08 /* Pods_foundationextensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foundationextensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66D1086011B8BF10FD592EDF1FF15687 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B9AFA07F38478C21CC643B053C43F3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6B9AFA07F38478C21CC643B053C43F3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7F170F9AB1FBFCB231FDDCD6403C7A26 /* Pods-foundationextensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-foundationextensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		80FAEC165C8B99989A48FFBE61D7C7F9 /* foundationextensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = foundationextensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		80FAEC165C8B99989A48FFBE61D7C7F9 /* foundationextensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = foundationextensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8784D131F6A20C6C27A9C0BD4C3A9B3E /* Pods-foundationextensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-foundationextensions_Example-umbrella.h"; sourceTree = "<group>"; };
 		896025574EB575A0F0C1C69A2BC5B2FC /* Pods-foundationextensions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-foundationextensions_Example.modulemap"; sourceTree = "<group>"; };
-		8B6917DDE535CFB691CFC2ACD3FAB1AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8DCB9265F93BDD2916991479CA1F6160 /* foundationextensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = foundationextensions.framework; path = foundationextensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6917DDE535CFB691CFC2ACD3FAB1AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8DCB9265F93BDD2916991479CA1F6160 /* foundationextensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = foundationextensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F02EE25287C3631E9497A1808AFA0C5 /* NSString+DDExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DDExtensions.h"; path = "foundationextensions/Classes/NSString+DDExtensions.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		967A0E4BA0DC75A505C63657295DE3A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9973592762CE9D073D8727809EDA6832 /* Pods-foundationextensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-foundationextensions_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A343E87766196E464A89B4A56B23878B /* foundationextensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "foundationextensions-umbrella.h"; sourceTree = "<group>"; };
@@ -85,9 +89,13 @@
 		D857EE990A431E5BB3135DA48532EC26 /* Pods-foundationextensions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-foundationextensions_Tests-resources.sh"; sourceTree = "<group>"; };
 		DFFE83901008B749E67F1AA7158DF023 /* NSBundle+DDExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+DDExtensions.m"; path = "foundationextensions/Classes/NSBundle+DDExtensions.m"; sourceTree = "<group>"; };
 		E379790BA4FF2B6A5D60CC99DFD21C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8FB645622281A39007930AF /* NSFileManager+DDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+DDExtensions.h"; path = "foundationextensions/Classes/NSFileManager+DDExtensions.h"; sourceTree = "<group>"; };
+		E8FB645722281A39007930AF /* NSFileManager+DDExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+DDExtensions.m"; path = "foundationextensions/Classes/NSFileManager+DDExtensions.m"; sourceTree = "<group>"; };
+		E8FB645C2228284C007930AF /* NSURLComponents+DDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSURLComponents+DDExtensions.h"; path = "foundationextensions/Classes/NSURLComponents+DDExtensions.h"; sourceTree = "<group>"; };
+		E8FB645D2228284C007930AF /* NSURLComponents+DDExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSURLComponents+DDExtensions.m"; path = "foundationextensions/Classes/NSURLComponents+DDExtensions.m"; sourceTree = "<group>"; };
 		E98EE666B88553AE81C22D53BA9DBD66 /* NSData+DDExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+DDExtensions.m"; path = "foundationextensions/Classes/NSData+DDExtensions.m"; sourceTree = "<group>"; };
 		F07EBE1BE943FB19BCC6AEBC480CD60E /* Pods-foundationextensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-foundationextensions_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F62545C2B7BA99BBA532CEE635188E3A /* Pods_foundationextensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_foundationextensions_Example.framework; path = "Pods-foundationextensions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62545C2B7BA99BBA532CEE635188E3A /* Pods_foundationextensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foundationextensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7262261D22230E9E01D68195B648D95 /* NSDictionary+DDExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+DDExtensions.m"; path = "foundationextensions/Classes/NSDictionary+DDExtensions.m"; sourceTree = "<group>"; };
 		FF8E68F82AA3654AF99AF5F3DFAB2585 /* Pods-foundationextensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-foundationextensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,6 +252,10 @@
 		F1DB34346791DA6594A681D84CAD807C /* foundationextensions */ = {
 			isa = PBXGroup;
 			children = (
+				E8FB645C2228284C007930AF /* NSURLComponents+DDExtensions.h */,
+				E8FB645D2228284C007930AF /* NSURLComponents+DDExtensions.m */,
+				E8FB645622281A39007930AF /* NSFileManager+DDExtensions.h */,
+				E8FB645722281A39007930AF /* NSFileManager+DDExtensions.m */,
 				03905B09A1B3168C24364C804AB4FE0A /* NSBundle+DDExtensions.h */,
 				DFFE83901008B749E67F1AA7158DF023 /* NSBundle+DDExtensions.m */,
 				4DE68A2AF9F0C0FC119838973C091866 /* NSData+DDExtensions.h */,
@@ -280,8 +292,10 @@
 				8EEB661021080E2842D85062C9D9B05B /* foundationextensions-umbrella.h in Headers */,
 				9403435DB012B641E72D07420937AE5C /* NSBundle+DDExtensions.h in Headers */,
 				C2419D549AB14C8534A308077C347434 /* NSData+DDExtensions.h in Headers */,
+				E8FB645822281A39007930AF /* NSFileManager+DDExtensions.h in Headers */,
 				C265AA41A4F084770C4E08E7BDCF7FCC /* NSDictionary+DDExtensions.h in Headers */,
 				050EA231D311C25848CECBDF2C8DB389 /* NSString+DDExtensions.h in Headers */,
+				E8FB645E2228284C007930AF /* NSURLComponents+DDExtensions.h in Headers */,
 				3FEB2DF1A608FE2D73D9BA1A94AE5038 /* NSURLRequest+DDExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,8 +400,10 @@
 				B19CA5362918F49D5B68759B677A56DC /* foundationextensions-dummy.m in Sources */,
 				021069465997E200CA9B3572DFAF0C17 /* NSBundle+DDExtensions.m in Sources */,
 				8730FB3B1455C60D09E06FAFB5E500E0 /* NSData+DDExtensions.m in Sources */,
+				E8FB645922281A39007930AF /* NSFileManager+DDExtensions.m in Sources */,
 				A07C36319B7CBC89B7D50913B3AAA4B3 /* NSDictionary+DDExtensions.m in Sources */,
 				35452C1B45284B47BFD9088FB1C8D3CC /* NSString+DDExtensions.m in Sources */,
+				E8FB645F2228284C007930AF /* NSURLComponents+DDExtensions.m in Sources */,
 				2FFB7E3CCBB5BA87FFF37AEFD6C1CACB /* NSURLRequest+DDExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

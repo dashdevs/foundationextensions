@@ -33,3 +33,20 @@
 
 @end
 
+@implementation NSString (DDSeparator)
+
+- (NSString *)dd_stringByInsertingSeparator:(NSString *)separator withInterval:(NSUInteger)interval {
+    NSMutableString *string = [[NSMutableString alloc] init];
+    NSUInteger location = 0;
+    while (location + interval < self.length) {
+        NSString *substring = [self substringWithRange:NSMakeRange(location, interval)];
+        [string appendString:substring];
+        [string appendString:separator];
+        location += interval;
+    }
+    [string appendString:[self substringWithRange:NSMakeRange(location, self.length - location)]];
+    return string;
+}
+
+@end
+

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'foundationextensions'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Helpful set of homemade Foundation extensions'
 
   s.homepage         = 'https://dashdevs.com'
@@ -46,6 +46,14 @@ Pod::Spec.new do |s|
   
   s.subspec 'NSData' do |ss|
       ss.source_files = 'foundationextensions/Classes/NSData+DDExtensions.{h,m}'
+  end
+  
+  s.subspec 'NSFileManager' do |ss|
+      ss.source_files = 'foundationextensions/Classes/NSFileManager+DDExtensions.{h,m}'
+  end
+  
+  s.subspec 'NSURLComponents' do |ss|
+      ss.source_files = 'foundationextensions/Classes/NSURLComponents+DDExtensions.{h,m}'
   end
 
 end

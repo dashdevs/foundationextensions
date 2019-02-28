@@ -32,4 +32,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface NSString (DDSeparator)
+
+/**
+ Constructs and returns an NSString object that is the result of interposing a given separator between the substrings with length of interval of original string.
+
+ @param separator Separator string
+ @param interval Length of substrings joined by separator
+ @return NSString object that is the result of interposing separator between substrings of original string
+ */
+- (NSString *)dd_stringByInsertingSeparator:(nonnull NSString *)separator withInterval:(NSUInteger)interval;
+
+@end
+
+
 NS_ASSUME_NONNULL_END

@@ -143,4 +143,21 @@
     XCTAssertTrue([string dd_consistsOfWhitespaces]);
 }
 
+- (void)testSeparator {
+    NSString *digits = @"1234567890";
+    NSString *str = [digits dd_stringByInsertingSeparator:@"-" withInterval:4];
+    XCTAssertTrue([str isEqualToString:@"1234-5678-90"]);
+    
+    str = [digits dd_stringByInsertingSeparator:@"**" withInterval:4];
+    XCTAssertTrue([str isEqualToString:@"1234**5678**90"]);
+
+    
+    str = [digits dd_stringByInsertingSeparator:@"-" withInterval:25];
+    XCTAssertFalse([str isEqualToString:@"1234-5678-90"]);
+    XCTAssertTrue([str isEqualToString:digits]);
+    
+    str = [digits dd_stringByInsertingSeparator:@"-" withInterval:-1];
+    XCTAssertTrue([str isEqualToString:digits]);
+}
+
 @end

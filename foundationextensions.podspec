@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.2.0'
   s.summary          = 'Helpful set of homemade Foundation extensions'
 
-  s.homepage         = 'https://dashdevs.com'
+  s.homepage         = 'http://dashdevs.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dashdevs llc' => 'hello@dashdevs.com' }
   s.source           = { :git => 'https://bitbucket.org/itomych/foundationextensions.git', :tag => s.version }

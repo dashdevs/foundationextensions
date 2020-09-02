@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://dashdevs.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dashdevs llc' => 'hello@dashdevs.com' }
-  s.source           = { :git => 'https://github.com/itomych/foundationextensions', :tag => s.version }
+  s.source           = { :git => 'https://github.com/itomych/foundationextensions.git', :tag => s.version }
 
   s.ios.deployment_target = '9.0'
   

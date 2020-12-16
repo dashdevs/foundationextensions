@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'foundationextensions'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Helpful set of homemade Foundation extensions'
 
   s.homepage         = 'http://dashdevs.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dashdevs llc' => 'hello@dashdevs.com' }
-  s.source           = { :git => 'https://github.com/itomych/foundationextensions.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/dashdevs/foundationextensions.git', :tag => s.version }
 
   s.ios.deployment_target = '9.0'
   
